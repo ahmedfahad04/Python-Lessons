@@ -1,0 +1,2 @@
+>> deque(collections library) == List
+>> Hashmap == Dictionary

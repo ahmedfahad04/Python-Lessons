@@ -1,0 +1,30 @@
+>> The modular programming approach where the code is broken down into 
+separate parts is where python modules comes into picture. 
+
+>> Modules are simply a ‘program logic’ or a ‘python script’ that can be 
+used for variety of applications or functions. We can declare functions, 
+classes etc in a module.
+
+>> Creating a module in python is similar to writing a simple python script 
+using the .py extension. For the above example lets try to make a module for 
+the various operations.
+
+>> When we import a module, the interpreter looks for the module in the build-in 
+modules directories in sys.path and if not found, it will look for the module in 
+the following order:
+
+- Current directory
+- PYTHONPATH
+- Default directory
+
+>> To get the list of all the modules in python, you can write the following 
+command in the python console.
+
+help('modules')
+
+>> It returns a sorted list of strings containing the names defined in a module. 
+The list contains the names of all the variables, functions, classes etc. 
+
+import calc
+ 
+print(dir(calc))
