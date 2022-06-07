@@ -1,0 +1,11 @@
+1. download a tesseract version from here
+    >> https://github.com/UB-Mannheim/tesseract/wiki
+2. add this line to your code
+    >> pt.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
+where the sting in "" means the location where you have installed the tesseract-ocr
+3. goto your cmd and type
+    >> pip install pytesseract
+4. add the installation address of tesseract-ocr in system variable. To do this follow the steps:
+    >> right clcik 'This Pc' on desktop and click on 'properties'. Then click on 'Advance System Settings'.
+    then click on 'Environment Variable' to the bottom right corner. Then click on 'Path' in System Variable and click
+    'New'. Then copy the tesseract Installation location and paste there.

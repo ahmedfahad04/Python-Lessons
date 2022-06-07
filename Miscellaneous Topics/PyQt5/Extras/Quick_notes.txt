@@ -1,0 +1,21 @@
+# making button active
+>> self.button.clicked.connect(self.actions)
+
+# taking the text out of combobox
+>> self.combobox.currentText()
+
+# taking the text out of text edit/plaintext
+>> self.text_edit.toPlainText()
+
+# to make variable active within a function
+>> use global keyword in function
+
+# to browse a file
+>> filename = QFileDialog.getOpenFileName()
+        path = filename[0]
+        print(filename)
+        print("Path is: " + path)
+
+# to read a file
+>> with open(path, "r") as f:
+    print(f.readlines())

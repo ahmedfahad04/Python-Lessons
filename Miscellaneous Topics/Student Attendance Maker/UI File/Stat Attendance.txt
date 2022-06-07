@@ -1,0 +1,35 @@
+Abhijit_1201: 4
+Mashiat_1202: 5
+Shazzad_1203: 7
+Fahad_1204: 10
+Tasnia_1205: 9
+Shaed_1206: 7
+Sazzad_1207: 4
+Rupali_1208: 7
+Sakib_1209: 8
+Rakibul_1210: 1
+Sharif_1211: 10
+Abdullah_1212: 6
+Rifah_1213: 10
+Swarna_1214: 7
+Muktadul_1215: 3
+Sadia_1216: 7
+Kamruzzaman_1217: 10
+Dipshikha_1218: 10
+Sampad_1219: 10
+Yasir_1220: 6
+Sifat_1221: 8
+Maimuna_1222: 4
+Tashfia_1223: 8
+Hasib_1224: 3
+Nazmus_1225: 2
+Rufidatul_1226: 9
+Momenuzzaman_1227: 4
+Monayem_1228: 7
+Abir_1229: 10
+Arnab_1230: 9
+Fahim_1231: 1
+Ahnaf_1232: 2
+Mehzabin_1233: 9
+
+Last Update: 2021/05/20 05:40:13
