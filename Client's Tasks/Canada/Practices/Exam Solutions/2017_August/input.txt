@@ -1,0 +1,3 @@
+(100,John Smith,1400.) (102,Jane Jones,1450) (007,James Bond,9999)
+(101,Fred Flintstone,1000.25)
+(105,Jill White,1250) (110,Sue Brown,1325) (007,James Bond,9999.99)

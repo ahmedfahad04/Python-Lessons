@@ -1,0 +1,17 @@
+## Topics:
+1. readfile and arrange info in list/dictionary
+2. array and vector arithmetic
+3. joint question. first write a function and second use the function and test for some constraints
+4. Matplotlib related problem
+5. arbitrary list/dictionary problem
+
+## Cautions:
+**Remember "COMPLETE THE FUNCTION" VS "WRITE A PYTHON MAIN PROGRAM".
+
+### Remember before submitting answers
+1. Remove unused import statement
+2. Remove unwanted portion of file.(like for testing the output; you give some random input)
+3. Just answer what have been asked in that question.
+4. Never use multiple return statement.
+
+

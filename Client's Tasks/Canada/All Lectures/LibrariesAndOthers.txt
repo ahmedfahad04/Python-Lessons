@@ -1,0 +1,100 @@
+##=> LIBRARIES:
+
+#2
+@ cmath(sin,asin,cos...); 
+@ from numpy.lib.scimath import sqrt, sin;  
+@ from math import log10, exp, pi, cos, tan
+#4
+@ import pprint
+
+##=> SPECIAL FUNCTION OR ANYTHING ELSE: 
+
+#2
+@ print("""
+...
+...
+...
+... """) --> here the way you type exactly in that way the output will show!!
+@ print('0' * 5) --> output: 00000
+
+#3
+@ a.strip()
+@ using + sign we can concatenate lists/tuples. Eg. [0,5]+[2,5] == [0,5,2,5] 
+@ test = [0]*10 (Creates a list containing 10 zeros) only int numbers are allowed
+@ a,b,c = 10,15,88 (assings each value to each variables)
+@ Interger Division: (total // len(numbers))
+@ Formatted Output: print("%7d\t%10d" %(tempC[i], tempF[i]))
+@ A tuple with only one element requires a comma.
+
+#4
+@ enumerate() -> automatically generate index for items in for loop.
+@ for updating any list element value you need to 
+access the element using index. Not by for number in numbers style.
+@ The zip function turns n lists into one list of 
+tuples where each tuple contains n elements (known as an n-tuple).
+@ temps = [[tC, tF] for tC, tF in zip(tempC, tempF)] (python table)
+@ print(numbers[-1::-1]) ... revese order
+
+#5
+@ To change the value of a global variable within a function the
+variable must be declared as global inside the function.(10th slide)
+@ When a function is defined some of the parameters may be
+given default values, these parameters are known as keyword
+parameters. The other parameters are known as positional
+parameters. The keyword parameters must come after the positional
+parameters in the function header.
+@ A Doc String is a string enclosed in triple quotes and may span several lines
+@ functionName.__doc__ (To print out the Doc String for a function use)
+@ lambda parmeters: expression (lambda funciton syntax)
+@ value1 if condition else value2 (The inline if test syntax); 30th slide
+
+#6
+@ The function input is given a string (known as a prompt) to
+display and always returns a value of type 'str'.
+@ We could use the eval function to covert the string returned by
+input to a numeric value.[if any string is input using eval '' quote is must]
+@ eval(expression, globals=None, locals=None) (eval syntax)
+
+
+##=> LECTURES COVERINGS
+
+#Week_2:
+@ Real, Imaginary Numbers. 
+@ While Loop. 
+@ Quadratic Equation.
+@ Summing Series.
+@ Trajectory of Ball.
+@ Relational and Boolean Operators.
+@ Finding Leading Zeroes.
+@ Computing Value of e
+
+#Week_3
+@ List And Tuple
+@ List -> append, insert, del, test.index, test[-1]<- indicates last item of a lists
+@ tuple -> index . Properties - Cant accidently change the content, execution is fast than list.
+@ sum() function returns sum of list and tuples.  
+@ Reverse elements of List/test.reverse(), formatted output, end=''
+@ A string can be thought of as a tuple of characters.
+
+#Week_4
+@ range() function. As arguments, only Integers are allowed.
+@ 11th, 36th slide. 
+@ List Comprehension.
+@ Nested List.
+@ Tables.
+@ Extracting Sub-lists or Slices
+ 
+#Week_5
+@ Function -> as list comprehension, value of function as parameter.
+Can return multiple values(tuple of values)
+@ Local(high priority) And Global Variable
+@ Doc string
+@ Lambda Function
+@ If Statement
+
+#Week_6
+@ User Input
+@ try-except
+@ draw an X (pattern drawing)
+@ pyplot
+

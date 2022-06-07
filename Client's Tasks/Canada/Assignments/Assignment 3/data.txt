@@ -1,0 +1,12 @@
+The inherited prejudices about time and space did
+not allow any doubt to arise as to the prime importance of the
+Galileian transformation for changing over from one body of reference
+to another. If a general law of nature were to be found which did not
+satisfy this condition, then at least one of the two fundamental
+assumptions of the theory would have been disproved. In this connection we did not obtain the Galilei
+transformation, but, differing from classical mechanics, the Lorentz
+transformation. If
+an observer sitting in the position M1 in the train did not possess
+this velocity, then he would remain permanently at M. it did not
+appear impossible that the answer to this question might be in the
+negative.
