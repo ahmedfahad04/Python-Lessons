@@ -1,0 +1,20 @@
+Note the statistics at the end of the output. 
+This can be helpful when you’re trying to discover 
+intermittent connectivity problems. For example, is 
+there any packet loss? How much latency is there? You 
+can check the round-trip times.If there’s a firewall between 
+you and the other host, a ping’s echo request may not be allowed. 
+Some firewall administrators implement policies that enforce this.
+ The idea is that they don’t want their hosts to be discoverable. 
+ If this is the case and you have firewall rules added to allow the 
+ hosts to communicate, then make sure that the rules also allow ICMP to pass between them.ICMP is the protocol used by ping, 
+ but it’s also the protocol TCP and other lower-level protocols use to communicate error messages. If you’re experiencing strange 
+ behavior or slow connections, this could be the reason. ICMP messages are identified by type and code. 
+ To give you an idea of the important information they carry, here are a few. In the section Viewing 
+ Socket State, you learned how netstat can be used to display information about sockets and their 
+ current state. This utility is available on macOS, Linux, and Windows. That section didn’t mention 
+ the columns Recv-Q and Send-Q in the example output. These columns will show you the number of bytes that 
+ are held in network buffers that are queued for transmission or receipt, but for some reason haven’t been 
+ read or written by the remote or local application. In other words, the bytes are waiting in network buffers 
+ in the operating system’s queues. One reason could be that the application is CPU bound or is otherwise unable 
+
