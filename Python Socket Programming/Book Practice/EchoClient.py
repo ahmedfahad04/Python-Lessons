@@ -11,16 +11,22 @@ def echo_client(port):
     sock.connect(server_address)
 
     try:
-        message = "Test message that will be echoed"
+
+        # data -----
+        f = open("a.txt", "r")
+        message = f.read()
+
+        # data -----
+        # message = "Test message that will be echoed"
         print("[Client] Send:", message)
-        sock.sendall(message.encode('utf-8'))  # WRITING
+        sock.sendall(message.encode('utf-8'))  # *** WRITING ***
 
         data_received = 0
         data_expected = len(message)
         content = ''
 
         while data_received < data_expected:
-            data = sock.recv(16)  # READING
+            data = sock.recv(16)  # *** READING ***
             data_received += len(data)
             content += data.decode('utf-8')
             # print("[Client] Received:", data.decode('utf-8'))
